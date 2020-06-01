@@ -1,5 +1,5 @@
 export const about = {
     heading: "About Me",
-    "quote": "If you love life, don't waste time, \nfor time is what life is made up of",
-    "bio": "A cadet by nature and a developer by passion, a tech enthusiast, a full-stack JavaScript developer, tech blogger, self-help blogger, writer, motivator and mentor for those who want to learn programming, development and recent technologies, Madhav has been continuously helping the youth of India to become better at programming. \n\nMadhav has a vision to  make each and every individual of this world proficient in at least one programming language (irrespective of that person's background and experience in tech/non-tech)."
+    "quote": "A a tech enthusiast and developer by passion\n",
+    "bio": "\nI am doing by 3rd year of B-tech Computer Science at Vellore Institute of technology, a full-stack developer, tech blogger, interested in programming development, and recent technologies.\n\n\nI am passionate about my work and wanted to do an internship for an esteemed organization to earn valuable knowledge and work experience."
 };
