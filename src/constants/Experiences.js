@@ -1,4 +1,4 @@
-export const experiences = {
+/*export const experiences = {
     heading: "Experiences",
     quote: "Theory without practice is just as incomplete as practice without theory.",
     experienceList: [
@@ -20,4 +20,4 @@ export const experiences = {
             about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
     ]
-};
+};*/
