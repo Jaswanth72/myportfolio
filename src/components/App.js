@@ -5,6 +5,7 @@ import { Portfolio } from './Portfolio/Portfolio';
 import { about } from './../constants/About';
 import { skills } from './../constants/Skills';
 import { projects } from './../constants/Projects';
+import { Experiences } from './../constants/Experiences';
 import './App.css';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
 			about: null,
 			skills: null,
 			projects: null,
+			Experiences: null,
 		};
 	}
 
@@ -26,6 +28,7 @@ class App extends Component {
 			about,
 			skills,
 			projects,
+			Experiences,
 			selectedHeading: about.heading,
 			selectedQuote: about.quote,
 			selectedSection: "about" 
@@ -51,6 +54,7 @@ class App extends Component {
 					about={this.state.about}
 					skills={this.state.skills}
 					projects={this.state.projects}
+					Experiences={this.state.Experiences}
 				/>
 			</div>
 		);

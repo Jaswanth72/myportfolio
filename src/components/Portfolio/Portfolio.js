@@ -12,7 +12,8 @@ export const Portfolio = ({
     selectedSection,
     about,
     skills,
-    projects }) => {
+    projects,
+    Experiences }) => {
     return (
         <div className="portfolio-container">
             <div className="sidenav-container">
@@ -27,7 +28,8 @@ export const Portfolio = ({
 					selectedQuote={selectedQuote}
 					about={about}
 					skills={skills}
-					projects={projects} />
+					projects={projects} 
+                    Experiences={Experiences}/>
             </div>
         </div>
     );

@@ -3,6 +3,7 @@ import React from 'react';
 import { About } from './../About/About';
 import { Skills } from './../Skills/Skills';
 import { Projects } from './../Projects/Projects';
+import { Experiences } from './../Experiences/Experiences';
 
 import './section-container.css';
 
@@ -12,7 +13,8 @@ export const SectionContainer = ({
     selectedSection,
     about,
     skills,
-    projects }) => {
+    projects,
+    Experiences }) => {
     return (
         <div className="section-container">
             <div className="section-heading-container">
@@ -24,7 +26,8 @@ export const SectionContainer = ({
                     {
                         about: <About bio={about.bio} />,
                         skills: <Skills skills={skills} />,
-                        projects: <Projects projects={projects} />
+                        projects: <Projects projects={projects} />,
+                        Experiences: <Experiences Experiences={Experiences} />
                     }[selectedSection]
                 }
             </div>

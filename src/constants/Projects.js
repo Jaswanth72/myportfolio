@@ -18,11 +18,10 @@ export const projects = {
             name: "Emotion Analyser",
             description: "A project on the application of Natural language processing which analyses the emotion from the user text and speech.",
             link: "https://github.com/Jaswanth72/EmotionAnalyser.git"
-        } 
-        /*{
-            name: "Project 5",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            link: "http://madhavbahl.tech/react-pokedex/"
-        }*/
+        },{
+            name: "college counseling System",
+            description: "This system allows one to apply for the college and allows the user to view his eligibility status which is calculated based on agregate and fee status based on room description",
+            link: "https://github.com/Jaswanth72/college-counseling.git"
+        }
     ]
 }
